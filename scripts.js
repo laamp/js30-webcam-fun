@@ -8,11 +8,11 @@ let activeFilter = 0;
 let rgbModifiers = [0, 0.25, 2];
 let rgbDirection = [true, true, true];
 const filters = [
-    rainbowFilter,
     noFilter,
     redEffect,
     greenEffect,
     blueEffect,
+    rainbowFilter,
     rgbSplit,
     greenScreen
 ];
